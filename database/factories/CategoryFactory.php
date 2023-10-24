@@ -26,7 +26,7 @@ class CategoryFactory extends Factory
     {
         return [
             'title' => fake()->unique()->title(),
-            'description' => fake()->sentence(200),
+            'description' => fake()->sentence(30),
         ];
     }
 }
